@@ -1,0 +1,115 @@
+LOCUS       AJ310640                 844 bp    RNA     linear   VRL 14-JUL-2016
+DEFINITION  Turkey coronavirus genomic RNA for partial spike glycoprotein (s
+            gene), 3a protein (gene 3), 3b protein (gene 3), E protein (gene 3)
+            and partial M protein (gene 4), strain turkey/UK/412/00.
+ACCESSION   AJ310640
+VERSION     AJ310640.1
+KEYWORDS    3a protein; 3b protein; E protein; gene 3; gene 4; M protein; S
+            gene; spike glycoprotein.
+SOURCE      Turkey coronavirus
+  ORGANISM  Turkey coronavirus
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+            Gammacoronavirus; Igacovirus; Gammacoronavirus galli.
+REFERENCE   1
+  AUTHORS   Cavanagh,D., Mawditt,K., Sharma,M., Drury,S.E., Ainsworth,H.L.,
+            Britton,P. and Gough,R.E.
+  TITLE     Detection of a coronavirus from turkey poults in Europe genetically
+            related to infectious bronchitis virus of chickens
+  JOURNAL   Avian Pathol. 30 (4), 355-368 (2001)
+   PUBMED   19184921
+REFERENCE   2  (bases 1 to 844)
+  AUTHORS   Britton,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-2001) Britton P., Molecular Biology, Institute
+            for Animal Health, Institute For animal Health, Compton Laboratory,
+            Compton, Newbury, Berkshire, RG20 7NN, UNITED KINGDOM
+COMMENT     related entries AJ310641, AJ310642.
+FEATURES             Location/Qualifiers
+     source          1..844
+                     /organism="Turkey coronavirus"
+                     /mol_type="genomic RNA"
+                     /strain="turkey/UK/412/00"
+                     /db_xref="taxon:11152"
+                     /note="related to infectious bronchitis virus"
+     gene            <2..88
+                     /gene="S"
+     CDS             <2..88
+                     /gene="S"
+                     /function="virus attachment protein"
+                     /codon_start=1
+                     /product="spike glycoprotein"
+                     /protein_id="CAC33179.1"
+                     /db_xref="UniProtKB/TrEMBL:Q998S5"
+                     /translation="SKCGKKSSYYTTFDNDVVTEQYRPKKSV"
+     misc_feature    67..74
+                     /gene="S"
+                     /note="transcription associated sequence for mRNA 3"
+     gene            88..723
+                     /gene="3"
+     CDS             88..261
+                     /gene="3"
+                     /function="unknown"
+                     /note="tricistronic gene, ORF3a"
+                     /codon_start=1
+                     /product="3a protein"
+                     /protein_id="CAC33180.1"
+                     /db_xref="InterPro:IPR005214"
+                     /db_xref="UniProtKB/TrEMBL:Q998S4"
+                     /translation="MIQSPTSFLIVLILLWCKLALSCFKECVIALQQLIQVLLQIINS
+                     NLQSRLLLWHSLD"
+     CDS             261..455
+                     /gene="3"
+                     /function="unknown"
+                     /note="tricistronic gene, ORF3b"
+                     /codon_start=1
+                     /product="3a protein"
+                     /protein_id="CAC33181.1"
+                     /db_xref="InterPro:IPR005295"
+                     /db_xref="UniProtKB/TrEMBL:Q998S3"
+                     /translation="MLDFEAIIETGQQIIQQISFDLQHISRVLNTELFDPFEFCYYRR
+                     GSYWELESADEFSGDDEFIE"
+     CDS             436..723
+                     /gene="3"
+                     /function="integral membrane protein"
+                     /codon_start=1
+                     /product="E protein"
+                     /protein_id="CAC33182.1"
+                     /db_xref="InterPro:IPR005296"
+                     /db_xref="UniProtKB/TrEMBL:Q998S2"
+                     /translation="MTNLLSKSLEENGSFLTAVYIFVAFVALYLLGRALQAFVQAADA
+                     CCLFWYTWVVVPGAKGTAFVYNHTYGKKLNKPELETVIVNEFPKNGWKNGC"
+     misc_feature    652..659
+                     /gene="3"
+                     /note="transcription associated sequence for mRNA 4"
+     gene            713..>844
+                     /gene="4"
+     CDS             713..>844
+                     /gene="4"
+                     /function="integral membrane protein"
+                     /codon_start=1
+                     /product="M protein"
+                     /protein_id="CAC33183.1"
+                     /db_xref="GOA:Q998S1"
+                     /db_xref="InterPro:IPR002574"
+                     /db_xref="UniProtKB/TrEMBL:Q998S1"
+                     /translation="MGANCTLDTEQAVQLFKEYNLFITAFLLFLTILLQYGYATRSRF
+                     "
+ORIGIN      
+        1 gagtaagtgt ggtaagaaat cttcttacta cacgactttt gataatgatg tggtaactga
+       61 acaatacaga cctaaaaagt ctgtttaatg attcaaagcc ctacatcctt tctaatagta
+      121 ttaattcttc tttggtgtaa acttgcatta agttgtttta aagagtgtgt tatagcactc
+      181 cagcaactaa tacaagtttt actccaaatt attaatagta acttacaatc tagacttctg
+      241 ctttggcaca gtctagacta atgttagatt ttgaagcaat tattgaaact ggtcagcaaa
+      301 taattcaaca aatcagtttc gatttacagc acatttcaag ggtgctaaac actgaattat
+      361 ttgacccctt tgaattctgt tattacagaa gaggtagtta ttgggagtta gaatcagctg
+      421 acgagttttc aggtgatgac gaatttattg agtaaatcgc tagaggagaa cggaagtttc
+      481 ctaacagcag tttacatatt tgttgcgttt gtagcactat accttttagg tagagcgctc
+      541 caagcatttg tgcaagcagc tgatgcttgc tgtttatttt ggtatacatg ggtagtagtt
+      601 cctggggcta agggtacagc ctttgtatat aatcatacat atggtaaaaa acttaacaaa
+      661 ccggagttag aaacagttat tgttaacgag tttccgaaaa acggttggaa aaatgggtgc
+      721 taattgtact cttgatactg aacaagcagt tcagcttttt aaagagtata atctatttat
+      781 aaccgcattc ctgttgtttc ttaccatact acttcagtat ggatacgcaa ctaggagtcg
+      841 attt
+//
+

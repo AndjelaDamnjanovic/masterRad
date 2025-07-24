@@ -1,0 +1,132 @@
+LOCUS       QTZ42723                1231 aa            linear   VRL 20-APR-2021
+DEFINITION  surface glycoprotein, partial [Severe acute respiratory syndrome
+            coronavirus 2].
+ACCESSION   QTZ42723
+VERSION     QTZ42723.1
+DBSOURCE    accession MW973496.1
+KEYWORDS    .
+SOURCE      Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)
+  ORGANISM  Severe acute respiratory syndrome coronavirus 2
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+            Betacoronavirus; Sarbecovirus; Betacoronavirus pandemicum.
+REFERENCE   1  (residues 1 to 1231)
+  AUTHORS   Deng,X., Garcia-Knight,M.A., Khalid,M.M., Servellita,V., Wang,C.,
+            Morris,M.K., Sotomayor-Gonzalez,A., Glasner,D.R., Reyes,K.R.,
+            Gliwa,A.S., Reddy,N.P., Sanchez San Martin,C., Federman,S.,
+            Cheng,J., Balcerek,J., Taylor,J., Streithorst,J.A., Miller,S.,
+            Kumar,G.R., Sreekumar,B., Chen,P.Y., Schulze-Gahmen,U., Taha,T.Y.,
+            Hayashi,J., Simoneau,C.R., McMahon,S., Lidsky,P.V., Xiao,Y.,
+            Hemarajata,P., Green,N.M., Espinosa,A., Kath,C., Haw,M., Bell,J.,
+            Hacker,J.K., Hanson,C., Wadford,D.A., Anaya,C., Ferguson,D.,
+            Lareau,L.F., Frankino,P.A., Shivram,H., Wyman,S.K., Ott,M.,
+            Andino,R. and Chiu,C.Y.
+  TITLE     Transmission, infectivity, and antibody neutralization of an
+            emerging SARS-CoV-2 variant in California carrying a L452R spike
+            protein mutation
+  JOURNAL   medRxiv (2021)
+   PUBMED   33758899
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 1231)
+  AUTHORS   Chiu,C.Y., Deng,X., Wang,C., Servellita,V., Sotomayor-Gonzalez,A.,
+            Wyman,S.K., Anaya,C., IDLB COVIDNet,C.D.P.H. and COVID Tracker
+            Consortium,C.Z.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-APR-2021) Laboratory Medicine, University of
+            California, San Francisco, 185 Berry Street, Box 0134, San
+            Francisco, CA 94107, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1231
+                     /organism="Severe acute respiratory syndrome coronavirus
+                     2"
+                     /isolate="SARS-CoV-2/human/USA/CA-UCSF-UC1081/2021"
+                     /isolation_source="nasopharyngeal swab"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:2697049"
+                     /geo_loc_name="USA"
+                     /collection_date="2021-01-12"
+     Protein         <1..1231
+                     /product="surface glycoprotein"
+     Region          <108..208
+                     /region_name="CoV_Spike_S1_NTD"
+                     /note="N-terminal domain of the S1 subunit of coronavirus
+                     Spike (S) proteins; cl40465"
+                     /db_xref="CDD:477362"
+     Region          279..499
+                     /region_name="SARS-CoV-2_Spike_S1_RBD"
+                     /note="receptor-binding domain of the S1 subunit of severe
+                     acute respiratory syndrome coronavirus 2 Spike (S)
+                     protein; cd21480"
+                     /db_xref="CDD:394827"
+     Site            order(279,315,339..341,344,348,352,354,371,474..475,479)
+                     /site_type="other"
+                     /note="trimer interface [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            order(327..328,330,332,334..336,338,340,342..344,347..348,
+                     350,386..388,473,475,477)
+                     /site_type="other"
+                     /note="cryptic epitope [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            order(375,404,407,411,413..414,433,444..445,447,451,454,
+                     456,458..460,463)
+                     /site_type="other"
+                     /note="receptor binding site [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            396..466
+                     /site_type="other"
+                     /note="receptor binding motif"
+                     /db_xref="CDD:394827"
+     Region          501..1166
+                     /region_name="CoV_Spike_S1-S2_S2"
+                     /note="S1/S2 cleavage region and the S2 fusion subunit of
+                     coronavirus spike (S) proteins; cl40439"
+                     /db_xref="CDD:424070"
+     Site            order(630,652..657,667)
+                     /site_type="other"
+                     /note="S1/S2 cleavage region"
+                     /db_xref="CDD:411955"
+     Site            756..764
+                     /site_type="other"
+                     /note="fusion peptide"
+                     /db_xref="CDD:411955"
+     Site            774..791
+                     /site_type="other"
+                     /note="internal fusion peptide"
+                     /db_xref="CDD:411955"
+     Region          876..941
+                     /region_name="heptad repeat 1"
+                     /note="heptad repeat 1 [structural motif]"
+                     /db_xref="CDD:411955"
+     Region          1120..1161
+                     /region_name="heptad repeat 2"
+                     /note="heptad repeat 2 [structural motif]"
+                     /db_xref="CDD:411955"
+     CDS             1..1231
+                     /gene="S"
+                     /coded_by="MW973496.1:<21650..25346"
+                     /codon_start=2
+ORIGIN      
+        1 frssvlhstq dlflxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx
+       61 xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxhknnksw mesefrvyss
+      121 annctfeyvs qpflmdlegx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xrdlpqgfsa
+      181 leplvdlpig initrfqtll alhrsyltpg dsssgwtxxx xxxxxxxxxx xxxxxxxxxx
+      241 xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxqp tesivrfpni tnlcpfgevf
+      301 natrfasvya wnrkrisncv adysvlxnsa sfstfkcygv sptklndlcf tnvyadsfvi
+      361 rgdevrqiap gqtgkiadyn yklpddftgc viawnsnnld skvggnynyr yrlfrksnlk
+      421 pferdistei yqagstpcng vegfncyfpl qsygfqptng vgyqpyrvvv lsfellhapa
+      481 tvcgpkkstn lvknkcvnfn fngltgtgvl tesnkkflpf qqfgrdiadt tdavrdpqtl
+      541 eilditpcsf ggvsvitpgt ntsnqvavly qgvnctevpv aihadqltpt wrvystgsnv
+      601 fqtragclig aehvnnsyec dipigagica syqtqtnspr rarsvasqsx xxxxxxxxxx
+      661 xxxxxxxxxx xxptnftisv tteilpvsmt ktsvdctmyi cgdstecsnl llqygsfctq
+      721 lnraltgiav eqdkntqevf aqvkqiyktp pikdfggfnf sqilpdpskp skrsfiedll
+      781 fnkvtladag fikqygdclg diaardlica qkfngltvlp plltdemiaq ytsallagti
+      841 tsgwtfgaga alqipfamqm ayrfngigvt qnvlyenqkl ianqfnsaig kiqdslssta
+      901 salgklqdvv nqnaqalntl vkqlssnfga issvlndils rldkveaevq idrlitgrlq
+      961 slqtyvtqql iraaeirasa nlaatkmsec vlgqskrvdf cgkgyhlmsf pqsaphgvvf
+     1021 lhvtyvpaqe knfttapaic hdgkahflre gvfvsngthw fvtqrnfyep qiittdntfv
+     1081 sgncdvvigi vnntvydplq peldsfkeel dkyfknhtsp dvdlgdisgi nasvvniqke
+     1141 idrlnevakn lneslidxxx xxxxeqyikw pwyiwlgfia gliaivmvti mlccmtsccs
+     1201 clkgccscgs cckfdeddse pvlkgvklhy t
+//
+

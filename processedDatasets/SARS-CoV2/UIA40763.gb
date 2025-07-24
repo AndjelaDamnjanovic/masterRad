@@ -1,0 +1,121 @@
+LOCUS       UIA40763                1110 aa            linear   VRL 04-JAN-2022
+DEFINITION  surface glycoprotein, partial [Severe acute respiratory syndrome
+            coronavirus 2].
+ACCESSION   UIA40763
+VERSION     UIA40763.1
+DBSOURCE    accession OM128446.1
+KEYWORDS    .
+SOURCE      Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)
+  ORGANISM  Severe acute respiratory syndrome coronavirus 2
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+            Betacoronavirus; Sarbecovirus; Betacoronavirus pandemicum.
+REFERENCE   1  (residues 1 to 1110)
+  AUTHORS   Murillo,E., Palacio,K.A., Garcia,J.F., Afanador,C. and Zuluaga,A.F.
+  TITLE     Identificacion de variantes de SARS CoV-2 mediante secuenciacion
+            por sanger del gen spike
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1110)
+  AUTHORS   Murillo,E., Palacio,K.A., Garcia,J.F., Afanador,C. and Zuluaga,A.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2022) Facultad de Medicina de la UdeA,
+            Laboratorio Integrado de Medicina Especializada (LIME), Calle 64
+            No. 51-31, segundo piso, IPS Universitaria - Sede Prado., Medellin,
+            Antioquia 050010, Colombia
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1110
+                     /organism="Severe acute respiratory syndrome coronavirus
+                     2"
+                     /isolate="SARS-CoV-2/human/COL/Medellin_28657_20J (Gamma,
+                     V3)/2021"
+                     /isolation_source="nasopharyngeal swab"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:2697049"
+                     /geo_loc_name="Colombia"
+                     /collection_date="2021-06-16"
+     Protein         <1..>1110
+                     /product="surface glycoprotein"
+     Region          1..263
+                     /region_name="SARS-CoV-like_Spike_S1_NTD"
+                     /note="N-terminal domain of the S1 subunit of the Spike
+                     (S) protein from Severe acute respiratory syndrome
+                     coronavirus and related betacoronaviruses in the B
+                     lineage; cd21624"
+                     /db_xref="CDD:394950"
+     Site            order(1..3,72,74,126,157..159,184,187,189..193,240..242)
+                     /site_type="other"
+                     /note="trimer interface [polypeptide binding]"
+                     /db_xref="CDD:394950"
+     Region          278..500
+                     /region_name="SARS-CoV-2_Spike_S1_RBD"
+                     /note="receptor-binding domain of the S1 subunit of severe
+                     acute respiratory syndrome coronavirus 2 Spike (S)
+                     protein; cd21480"
+                     /db_xref="CDD:394827"
+     Site            order(278,280,316,340..342,345,349,353,355,372,475..476,
+                     480)
+                     /site_type="other"
+                     /note="trimer interface [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            order(328..329,331,333,335..337,339,341,343..345,348..349,
+                     351,387..389,474,476,478)
+                     /site_type="other"
+                     /note="cryptic epitope [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            order(376,405,408,412,414..415,434,445..446,448,452,455,
+                     457,459..461,464)
+                     /site_type="other"
+                     /note="receptor binding site [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            397..467
+                     /site_type="other"
+                     /note="receptor binding motif"
+                     /db_xref="CDD:394827"
+     Region          502..1110
+                     /region_name="CoV_Spike_S1-S2_S2"
+                     /note="S1/S2 cleavage region and the S2 fusion subunit of
+                     coronavirus spike (S) proteins; cl40439"
+                     /db_xref="CDD:424070"
+     Site            order(631,653..658,668)
+                     /site_type="other"
+                     /note="S1/S2 cleavage region"
+                     /db_xref="CDD:411955"
+     Site            757..765
+                     /site_type="other"
+                     /note="fusion peptide"
+                     /db_xref="CDD:411955"
+     Site            775..792
+                     /site_type="other"
+                     /note="internal fusion peptide"
+                     /db_xref="CDD:411955"
+     Region          877..942
+                     /region_name="heptad repeat 1"
+                     /note="heptad repeat 1 [structural motif]"
+                     /db_xref="CDD:411955"
+     CDS             1..1110
+                     /gene="S"
+                     /coded_by="OM128446.1:<1..>3332"
+                     /codon_start=2
+ORIGIN      
+        1 vfrssvlhst qdlflpffsn vtwfhaihvs gtngtkrfdn pvlpfndgvy fasteksnii
+       61 rgwifgttld sktqsllivn natnvvikvc efqfcnypfl gvyyhknnks wmesefrvys
+      121 sannctfeyv sqpflmdleg kqgnfknlse fvfknidgyf kiyskhtpin lvrdlpqgfs
+      181 aleplvdlpi ginitrfqtl lalhrsyltp gdsssgwtag aaayyvgylq prtfllkyne
+      241 ngtitdavdc aldplsetkc tlksftvekg iyqtsnfrvq ptesivrfpn itnlcpfgev
+      301 fnatrfasvy awnrkrisnc vadysvlyns asfstfkcyg vsptklndlc ftnvyadsfv
+      361 irgdevrqia pgqtgtiady nyklpddftg cviawnsnnl dskvggnyny lyrlfrksnl
+      421 kpferdiste iyqagstpcn gvkgfncyfp lqsygfqpty gvgyqpyrvv vlsfellhap
+      481 atvcgpkkst nlvknkcvnf nfngltgtgv ltesnkkflp fqqfgrdiad ttdavrdpqt
+      541 leilditpcs fggvsvitpg tntsnqvavl yqgvnctevp vaihadqltp twrvystgsn
+      601 vfqtragcli gaeyvnnsye cdipigagic asyqtqtnsp rrarsvasqs iiaytmslga
+      661 ensvaysnns iaiptnftis vtteilpvsm tktsvdctmy icgdstecsn lllqygsfct
+      721 qlnraltgia veqdkntqev faqvkqiykt ppikdfggfn fsqilpdpsk pskrsfiedl
+      781 lfnkvtlada gfikqygdcl gdiaardlic aqkfngltvl pplltdemia qytsallagt
+      841 itsgwtfgag aalqipfamq mayrfngigv tqnvlyenqk lianqfnsai gkiqdslsst
+      901 asalgklqdv vnqnaqalnt lvkqlssnfg aissvlndil srldkveaev qidrlitgrl
+      961 qslqtyvtqq liraaeiras anlaaikmse cvlgqskrvd fcgkgyhlms fpqsaphgvv
+     1021 flhvtyvpaq eknfttapai chdgkahfpr egvfvsngth wfvtqrnfye pqiittdntf
+     1081 vsgncdvvig ivnntvydpl qpeldsfkee
+//
+

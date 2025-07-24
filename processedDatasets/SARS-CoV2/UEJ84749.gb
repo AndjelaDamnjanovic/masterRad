@@ -1,0 +1,130 @@
+LOCUS       UEJ84749                1099 aa            linear   VRL 10-MAR-2022
+DEFINITION  surface glycoprotein, partial [Severe acute respiratory syndrome
+            coronavirus 2].
+ACCESSION   UEJ84749
+VERSION     UEJ84749.1
+DBSOURCE    accession OL405052.1
+KEYWORDS    .
+SOURCE      Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)
+  ORGANISM  Severe acute respiratory syndrome coronavirus 2
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+            Betacoronavirus; Sarbecovirus; Betacoronavirus pandemicum.
+REFERENCE   1  (residues 1 to 1099)
+  AUTHORS   Jary,A., Marot,S., Faycal,A., Leon,S., Sayon,S., Zafilaza,K.,
+            Ghidaoui,E., Quoc,S.N., Nemlaghi,S., Choquet,S., Dres,M.,
+            Pourcher,V., Calvez,V., Junot,H., Marcelin,A.G. and Soulie,C.
+  TITLE     Spike Gene Evolution and Immune Escape Mutations in Patients with
+            Mild or Moderate Forms of COVID-19 and Treated with Monoclonal
+            Antibodies Therapies
+  JOURNAL   Viruses 14 (2), 226 (2022)
+   PUBMED   35215820
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 1099)
+  AUTHORS   Jary,A., Marot,S., Faycal,A., Leon,S., Sayon,S., Zafilaza,K.,
+            Ghidaoui,E., Nguyen Quoc,S., Nemlaghi,S., Choquet,S., Dres,M.,
+            Pourcher,V., Calvez,V., Junot,H., Marcelin,A.-G. and Soulie,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-NOV-2021) Virology, CHU Pitie Salpetriere Charles
+            Foix, 47/83 boulevard de l'hopital, Paris 75013, France
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1099
+                     /organism="Severe acute respiratory syndrome coronavirus
+                     2"
+                     /isolate="SARS-CoV-2/human/FRA/P3_20210402/2021"
+                     /isolation_source="nasopharyngeal swab"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:2697049"
+                     /geo_loc_name="France"
+                     /collection_date="2021-04-02"
+     Protein         <1..1099
+                     /product="surface glycoprotein"
+     Region          <1..130
+                     /region_name="CoV_Spike_S1_NTD"
+                     /note="N-terminal domain of the S1 subunit of coronavirus
+                     Spike (S) proteins; cl40465"
+                     /db_xref="CDD:477362"
+     Region          145..367
+                     /region_name="SARS-CoV-2_Spike_S1_RBD"
+                     /note="receptor-binding domain of the S1 subunit of severe
+                     acute respiratory syndrome coronavirus 2 Spike (S)
+                     protein; cd21480"
+                     /db_xref="CDD:394827"
+     Site            order(145,147,183,207..209,212,216,220,222,239,342..343,
+                     347)
+                     /site_type="other"
+                     /note="trimer interface [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            order(195..196,198,200,202..204,206,208,210..212,215..216,
+                     218,254..256,341,343,345)
+                     /site_type="other"
+                     /note="cryptic epitope [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            order(243,272,275,279,281..282,301,312..313,315,319,322,
+                     324,326..328,331)
+                     /site_type="other"
+                     /note="receptor binding site [polypeptide binding]"
+                     /db_xref="CDD:394827"
+     Site            264..334
+                     /site_type="other"
+                     /note="receptor binding motif"
+                     /db_xref="CDD:394827"
+     Region          369..1034
+                     /region_name="SARS-CoV-like_Spike_SD1-2_S1-S2_S2"
+                     /note="SD-1 and SD-2 subdomains, the S1/S2 cleavage
+                     region, and the S2 fusion subunit of the spike (S)
+                     glycoprotein from SARS-CoV-2 (COVID-19) and related
+                     betacoronaviruses in the B lineage; cd22378"
+                     /db_xref="CDD:411965"
+     Site            order(429,442,483,535,543,627,900,924,960,984,999,1020)
+                     /site_type="other"
+                     /note="N-linked glycosylation sites [posttranslational
+                     modification]"
+                     /db_xref="CDD:411965"
+     Site            order(498..502,504,509..514,516..535)
+                     /site_type="other"
+                     /note="S1/S2 cleavage region"
+                     /db_xref="CDD:411965"
+     Site            614..632
+                     /site_type="other"
+                     /note="fusion peptide"
+                     /db_xref="CDD:411965"
+     Site            642..659
+                     /site_type="other"
+                     /note="internal fusion peptide"
+                     /db_xref="CDD:411965"
+     Region          744..809
+                     /region_name="heptad repeat 1"
+                     /note="heptad repeat 1 [structural motif]"
+                     /db_xref="CDD:411965"
+     Region          988..1029
+                     /region_name="heptad repeat 2"
+                     /note="heptad repeat 2 [structural motif]"
+                     /db_xref="CDD:411965"
+     CDS             1..1099
+                     /gene="S"
+                     /coded_by="OL405052.1:<1..3302"
+                     /codon_start=3
+ORIGIN      
+        1 flmdlegkqg nfknlrefvf knidgyfkiy skhtpinlvr dlpqgfsale plvdlpigin
+       61 itrfqtllal hrsyltpgds ssgwtagaaa yyvgylqprt fllkynengt itdavdcald
+      121 plsetkctlk sftvekgiyq tsnfrvqpte sivrfpnitn lcpfgevfna trfasvyawn
+      181 rkrisncvad ysvlynsasf stfkcygvsp tklndlcftn vyadsfvirg devrqiapgq
+      241 tgkiadynyk lpddftgcvi awnsnnldsk vggnynylyr lfrksnlkpf erdisteiyq
+      301 agstpcngve gfncyfplqs ygfqptygvg yqpyrvvvls fellhapatv cgpkkstnlv
+      361 knkcvnfnfn gltgtgvlte snkkflpfqq fgrdiddttd avrdpqtlei lditpcsfgg
+      421 vsvitpgtnt snqvavlyqg vnctevpvai hadqltptwr vystgsnvfq tragcligae
+      481 hvnnsyecdi pigagicasy qtqtnshrra rsvasqsiia ytmslgaens vaysnnsiai
+      541 pinftisvtt eilpvsmtkt svdctmyicg dstecsnlll qygsfctqln raltgiaveq
+      601 dkntqevfaq vkqiyktppi kdfggfnfsq ilpdpskpsk rsfiedllfn kvtladagfi
+      661 kqygdclgdi aardlicaqk fngltvlppl ltdemiaqyt sallagtits gwtfgagaal
+      721 qipfamqmay rfngigvtqn vlyenqklia nqfnsaigki qdslsstasa lgklqdvvnq
+      781 naqalntlvk qlssnfgais svlndilarl dkveaevqid rlitgrlqsl qtyvtqqlir
+      841 aaeirasanl aatkmsecvl gqskrvdfcg kgyhlmsfpq saphgvvflh vtyvpaqekn
+      901 fttapaichd gkahfpregv fvsngthwfv tqrnfyepqi itthntfvsg ncdvvigivn
+      961 ntvydplqpe ldsfkeeldk yfknhtspdv dlgdisgina svvniqkeid rlnevaknln
+     1021 eslidlqelg kyeqyikwpw yiwlgfiagl iaivmvtiml ccmtsccscl kgccscgscc
+     1081 kfdeddsepv lkgvklhyt
+//
+

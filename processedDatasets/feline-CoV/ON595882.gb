@@ -1,0 +1,92 @@
+LOCUS       ON595882                1617 bp    RNA     linear   ENV 30-NOV-2022
+DEFINITION  MAG: Feline coronavirus isolate HC-24 S and ORF3a genes, partial
+            cds.
+ACCESSION   ON595882
+VERSION     ON595882.1
+DBLINK      BioProject: PRJNA841246
+            BioSample: SAMN28578157
+            Sequence Read Archive: SRR19348624
+KEYWORDS    ENV; Metagenome Assembled Genome; MAG.
+SOURCE      Feline coronavirus (gut metagenome)
+  ORGANISM  Feline coronavirus
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+            Alphacoronavirus; Tegacovirus; Alphacoronavirus suis.
+REFERENCE   1  (bases 1 to 1617)
+  AUTHORS   Van Brussel,K., Wang,X., Shi,M., Carrai,M., Feng,S., Li,J.,
+            Holmes,E.C., Beatty,J.A. and Barrs,V.R.
+  TITLE     The enteric virome of cats with feline panleukopenia differs in
+            abundance and diversity from healthy cats
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1617)
+  AUTHORS   Van Brussel,K., Wang,X., Shi,M., Carrai,M., Feng,S., Li,J.,
+            Holmes,E.C., Beatty,J.A. and Barrs,V.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2022) Science, University of Sydney, Biomedical
+            Building, Darlington, Nsw 2006, Australia
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Trinity v. 2.8.5; IDBA-UD v. 1.1.2
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1617
+                     /organism="Feline coronavirus"
+                     /mol_type="genomic RNA"
+                     /isolate="HC-24"
+                     /isolation_source="feces"
+                     /host="Felis catus"
+                     /db_xref="taxon:12663"
+                     /environmental_sample
+                     /geo_loc_name="Australia"
+                     /collection_date="2018"
+                     /metagenome_source="gut metagenome"
+                     /note="metagenomic"
+     CDS             <1..1583
+                     /codon_start=3
+                     /product="S protein"
+                     /protein_id="UZV42133.1"
+                     /translation="LELATVEKFNTTAVGGEKLGGFYFDGLSELLPPTIGKRSAIEDL
+                     LFNKVVTSGLGTVDDDYKKCSAGTDVADLVCAQYYNGIMVLPGVVDDNKMAMYTASLI
+                     GGMAMGSITSAVAVPFAMQVQARLNYVALQTDVLQENQKILANAFNNAIGNITLALGK
+                     VSNAITTISEGFNTMASALTKIQSVVNQQGEALSQLTSQLQKNFQAISSSIAEIYNRL
+                     EKVEADAQVDRLITGRLAALNAYVSQTLTQYAEVKASRQLAMEKVNECVKSQSDRYGF
+                     CGNGTHLFSLVNSAPDGLLFFHTVLLPTEWEEVTAWSGICVNDTYAYVLKDFEYSIFS
+                     YNSTYMVTPRNMFQPRKPQMSDFVQITSCEVTFLNTTYTAFQDIVIDYIDINKTIADM
+                     LEQYNPNYTTPGLDLQLEIFNQTRLNLTAEIDQLEHRADNLTVIAHELQQYIDNLNKT
+                     LVDLEWLNRIETYVKWPWYVWLLIGLVVVFCIPLLLFCCLSTGCCGCFGCLGSCCNSL
+                     CSRRQFESYEPIEKVHIH"
+     CDS             1595..>1617
+                     /codon_start=1
+                     /product="ORF3a"
+                     /protein_id="UZV42134.1"
+                     /translation="MDTVKSIG"
+ORIGIN      
+        1 gtctagagct tgcaactgtt gaaaagttta atactactgc tgtaggtggt gaaaagcttg
+       61 gtggtttcta ttttgacggt ttgagtgagt tactaccacc tacaattggt aagaggtctg
+      121 ctattgagga tttattgttc aataaagtag tcactagcgg tcttggcact gtggatgatg
+      181 attacaaaaa gtgctctgct ggtaccgatg tagctgacct agtttgtgcg cagtattaca
+      241 atggcataat ggtgttacct ggtgttgtag atgataataa gatggccatg tacactgctt
+      301 ctttaatagg gggtatggct atgggctcta ttacatctgc agtggctgtc ccttttgcca
+      361 tgcaagttca agctaggctt aactatgttg cattacaaac tgatgttcta caggaaaacc
+      421 agaaaatact tgctaatgcc tttaataatg ccattggtaa tattacttta gcacttggaa
+      481 aggtttctaa tgccattaca actatttcag aaggatttaa tactatggct tcagcattga
+      541 ctaagattca gagtgtagtt aaccaacagg gtgaagcatt gagtcaactc actagtcagt
+      601 tacagaagaa ttttcaggct attagtagtt ccattgctga aatttacaat agactggaaa
+      661 aggttgaagc tgatgctcaa gttgaccgtc tcatcactgg tagattagct gcacttaatg
+      721 cttatgtgtc tcaaacctta actcagtatg ctgaagtcaa ggctagtaga caacttgcaa
+      781 tggaaaaagt taatgagtgt gtgaaatcac aatcggatag gtatgggttc tgtggaaatg
+      841 gaacacacct attctcactt gtcaattctg cacctgatgg attactcttc tttcacacag
+      901 ttttgcttcc tacagaatgg gaagaagtga cggcatggtc aggaatatgt gttaatgaca
+      961 cttatgcata tgtgttgaaa gactttgaat attctatttt cagctataac agtacgtata
+     1021 tggtgactcc ccgtaatatg ttccaaccta gaaagcctca gatgagtgat tttgtgcaaa
+     1081 ttacgagttg tgaagtgaca tttctgaaca ctacatatac ggcgtttcag gatattgtga
+     1141 ttgattatat tgacattaat aagactattg ctgatatgct tgagcaatat aaccctaatt
+     1201 acacaacacc tggtttagat ttacagctgg aaatcttcaa ccagacaagg ttaaacctca
+     1261 ctgcagaaat tgaccaattg gaacatagag ccgacaacct caccgttatc gcacatgagc
+     1321 tacagcagta cattgacaat cttaataaga ctcttgttga ccttgaatgg ctcaacagga
+     1381 ttgaaactta tgtaaaatgg ccttggtatg tgtggctact aattggatta gtggtagtat
+     1441 tctgcattcc attgttactg ttttgctgct tgagtactgg ctgctgtggg tgctttggtt
+     1501 gtcttggaag ttgttgtaat tctctttgta gtagaagaca atttgaaagt tacgaaccta
+     1561 tagaaaaggt tcacattcat taactaaacg atttatggac actgtcaagt ctatagg
+//
+
